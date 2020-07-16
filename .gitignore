@@ -1,0 +1,21 @@
+# Distribution / packaging
+.Python
+.eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Serverless directories
+.serverless
+
+
+
+.ipynb*
+.venv
+.vscode
+
+
+.DS_Store
+*.pyc
+
+.cred*
