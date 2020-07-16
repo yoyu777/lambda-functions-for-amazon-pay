@@ -1,8 +1,11 @@
+## Serverless
 
+This example can be deployed automatically using https://www.serverless.com/
 
-Implementation steps:
+## Implementation steps:
 
 1. generate a signature from payload:
+
   payload => call the getSignature function => signature => render the checkout button with the payload (stringified json) and the signature
   
 2. get checkouut session details from session ID (from the redirection url parameter of the checkout review page):
